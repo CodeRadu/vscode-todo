@@ -1,0 +1,35 @@
+input:not([type="checkbox"]) {
+  color: var(--vscode-input-foreground);
+  background-color: var(--vscode-input-background);
+  border-color: #333399;
+  border-style: solid;
+  border-radius: 10px;
+  height: 30px;
+  transition: 0.5s;
+  outline: none;
+}
+
+input:not([type="checkbox"]):hover {
+  border-color: green;
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 10px;
+}
+
+button {
+  background-color: var(--vscode-input-background);
+  border-radius: 10px;
+  color: var(--vscode-input-foreground);
+  border-style: solid;
+  border-color: #333399;
+  transition: 0.5s;
+}
+
+button:hover {
+  border-color: green;
+}
